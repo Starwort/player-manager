@@ -51,7 +51,7 @@ function App() {
     return (
         <ThemeProvider theme={darkTheme}>
             <CssBaseline />
-            <Card style={{margin: '16px auto', maxWidth: '33%'}}>
+            <Card style={{margin: '16px auto', maxWidth: 750}}>
                 <List>
                     {players.map(([playerName, playerChosen], i) =>
                         <ListItemButton onClick={() => removePlayer(i)}>
